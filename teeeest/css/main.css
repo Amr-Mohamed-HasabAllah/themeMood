@@ -1,0 +1,45 @@
+* {
+    transition: 0.5s;
+}
+
+body {
+    /* Light theme colors */
+    background-color: rgb(225, 225, 225);
+    color: black;
+}
+
+body.dark {
+    /* Dark theme colors */
+    background-color: black;
+    color: white;
+}
+
+i {
+    cursor: pointer;
+    color: yellow;
+}
+
+
+
+.yellow {
+    color: yellow;
+}
+
+.black {
+    color: black;
+}
+
+.mainDiv {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.blackDiv {
+    background-color: white;
+}
+
+.whiteDiv {
+    background-color: black;
+    color: white;
+}
